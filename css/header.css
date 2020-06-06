@@ -1,0 +1,33 @@
+.header{margin-bottom: 1em;}
+.navigation{ padding: 2em; }
+.nav-u-list{ max-width: 50%; font-size: 2.25em;margin-left: auto;}
+.nav-u-list a{ color: var(--color-primary); font-weight: normal;}
+
+
+.circles{ position: relative;}
+.circle__device{ 
+    background-color: var( --color-secondary);
+    opacity: 50%; 
+    height: 40.625em; width: 40.625em; 
+    border-radius: 50%; 
+    z-index: -23;
+    margin-left: -4em;
+
+    position: absolute;
+    content: "";
+    bottom: -38em;
+}
+
+.circle__navigation{
+    background-color: var( --color-secondary);
+    opacity: 24%; 
+    height: 400px; width: 400px; 
+    border-radius: 50%; 
+    z-index: -23;
+    margin-left: -4em;
+
+    position: absolute;
+    left: 65em;
+    bottom: -10em;
+    content: "";
+}
